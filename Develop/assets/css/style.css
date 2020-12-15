@@ -1,13 +1,17 @@
+/**this css file is organized according to the semantic html structure of index.html*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/**This is the semantic order of css within the body**/
 body {
     background-color: #d9dcd6;
 }
 
+/**This is the CSS within the header element**/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,18 +24,8 @@ h1 {
     font-size: 48px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-h4 {
-    font-size: 20px;
+.seo {
+    color: #d9dcd6;
 }
 
 header nav {
@@ -56,42 +50,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.seo {
-    color: #d9dcd6;
-}
-
+/**This is the css for the figure element**/
 .hero {
     height: 800px;
     width: 100%;
@@ -101,25 +60,11 @@ footer {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/**This is the css within the main element**/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .main_content {
@@ -133,4 +78,67 @@ footer {
 
 .main_content img {
     max-height: 200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/**This is the css within the aside element**/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/**This is the CSS for the footer element**/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
 }
