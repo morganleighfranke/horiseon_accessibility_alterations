@@ -6,11 +6,10 @@
 
 ##Screenshot
 
+```md
+![alt text](develop/assets/Screen Shot 2020-12-15 at 1.07.57 PM.png)
+```
 
 ##Link
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
-```
+file:///Users/morganfranke/Bootcamp/homework/horiseon_accessibility_alterations/Develop/index.html
