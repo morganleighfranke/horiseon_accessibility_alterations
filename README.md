@@ -7,7 +7,7 @@
 ##Screenshot
 
 
-![alt text](./develop/assets/images/horiseon_accessability__alterations_screenshot.png)
+![alt text](/develop/assets/images/horiseon_accessability__alterations_screenshot.png)
 
 ##Link
 
