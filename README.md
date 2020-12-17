@@ -7,7 +7,7 @@
 ##Screenshot
 
 
-![alt text](develop/assets/Screen Shot 2020-12-15 at 1.07.57 PM.png)
+![alt text](./develop/assets/images/horiseon_accessability__alterations_screenshot.png)
 
 ##Link
 
