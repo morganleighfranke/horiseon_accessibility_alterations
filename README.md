@@ -7,8 +7,7 @@
 ##Screenshot
 
 
-![alt text](/develop/assets/images/horiseon_accessability__alterations_screenshot.png)
+![alt text](./assets/images/horiseon_accessability__alterations_screenshot.png)
 
 ##Link
-
-file:///Users/morganfranke/Bootcamp/homework/horiseon_accessibility_alterations/Develop/index.html
+https://morganleighfranke.github.io/horiseon_accessibility_alterations/
